@@ -7,14 +7,14 @@ export default function Footer() {
             <h2 className="text-2xl font-bold">VAVQO</h2>
             <p className="mt-2">Innovative solutions with a human touch</p>
           </div>
-          <div>
-            <h3 className="text-lg font-semibold mb-2">Contact Us</h3>
-            <p>Email: sawadogovalentin53@gmail.com</p>
-            <p>WhatsApp: +1 501 697 2162</p>
+          <div className="flex flex-col space-y-2">
+            <h3 className="font-bold">Contact</h3>
+            <a href="tel:+1 501 697 2162">+1 501 697 2162</a>
+            <a href="mailto:sawadogovalentin53@gmail.com">hello@vavqo.com</a>
           </div>
         </div>
         <div className="mt-8 text-center">
-          <p>&copy; 2023 VAVQO. All rights reserved.</p>
+          <p>&copy; 2025 VAVQO. All rights reserved.</p>
         </div>
       </div>
     </footer>

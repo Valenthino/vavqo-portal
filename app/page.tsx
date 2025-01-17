@@ -52,7 +52,7 @@ export default function Home() {
           <p className="text-xl mb-8 text-center max-w-2xl">
             Innovative solutions with a human touch. We develop cutting-edge solutions for organizations, businesses, and governments.
           </p>
-          <Button asChild variant="outline" className="border-white text-white hover:bg-white hover:text-[#1f1f1f]">
+          <Button asChild variant="outline" className="border-white text-[#1f1f1f] hover:bg-white hover:text-[#1f1f1f]">
             <a href="#about">Discover Our Solutions</a>
           </Button>
         </div>
@@ -88,14 +88,7 @@ export default function Home() {
               </p>
             </div>
             <div className="flex justify-center items-center">
-              <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Screenshot%202025-01-15%20at%209.22.55%E2%80%AFPM-77jdNVwIH1I54fruu6kDjzM36dzhmD.png"
-                alt="VAVQO - Integrity"
-                width={400}
-                height={300}
-                className="w-full max-w-md"
-                priority
-              />
+              <h2 className="text-6xl font-bold">VAVQO</h2>
             </div>
           </div>
         </div>
@@ -140,7 +133,9 @@ export default function Home() {
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
-                WhatsApp: +1 501 697 2162
+                <a href="https://wa.me/15016972162" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                  WhatsApp: +1 501 697 2162
+                </a>
               </p>
             </div>
           </div>
